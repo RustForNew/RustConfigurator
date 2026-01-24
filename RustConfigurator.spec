@@ -2,10 +2,10 @@
 
 
 a = Analysis(
-    ['RustConfigurator.py'],
+    ['rustconfigurator.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('icons', 'icons'), ('configs', 'configs')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
